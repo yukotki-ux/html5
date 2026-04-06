@@ -1,0 +1,134 @@
+header[role="banner"] {
+  margin-top: 20px;
+  height: 135px;
+  border: solid 10px white;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0 1px 1px white;
+}
+nav {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav ul {
+  text-align: center;
+  font-family: Arial, Verdana;
+  font-size: 18px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  height: 20px;
+  width: 95px;
+  margin: 0 40px 0 40px;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: #2f6b3f;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border: solid 4px white;
+}
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+div {
+  background-color: #fff6c0;
+  margin: auto;
+}
+
+h2 {
+  background-color: #f7c85c;
+}
+
+.text-align {
+  text-align: center;
+}
+.recipe {
+  border-style: dotted;
+  font-family: Arial;
+}
+#Link {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  position: fixed;
+  top: 100px;
+  width: 100px;
+  height: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  display: grid;
+}
+
+body {
+  background-color: #2f6b3f;
+}
+
+footer {
+  background-color: #7fb77e;
+  text-align: right;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+}
+section {
+  background-color: #fff6c0;
+  border: double 4px white;
+  padding: 10px;
+  margin: 10px 100px 10px;
+  width: 600px;
+  height: auto;
+}
+section p {
+  color: #2f6b3f;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 22px;
+}
+aside {
+  position: relative;
+  top: -670px;
+  left: 800px;
+  background-color: #f7c85c;
+  border: solid 8px white;
+  height: 410px;
+  width: 302px;
+  text-shadow: 0 1px 1px white;
+}
+aside ul {
+  font-size: 20px;
+}
+#ramen {
+  position: relative;
+  left: 300px;
+}
+.illustration-row {
+  display: flex;
+  gap: 10px;
+  margin-left: 120px;
+}
+.centerdisplay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7fb77e;
+  border: double 2px white;
+  padding: 10px;
+  margin: 10px 100px 10px;
+  width: 400px;
+  height: auto;
+}
